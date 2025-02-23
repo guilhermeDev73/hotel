@@ -19,7 +19,7 @@ export default function Comentarios() {
 
             <h1 className="font-medium text-3xl">Comentarios</h1>
             <div className="relative flex w-full max-w-[700px] justify-center hover:scale-110 transition">
-                <FaChevronLeft className="absolute left-0 top-[50%] text-2xl  hover:scale-110 transition" onClick={e => voltarComentario()} />
+                <FaChevronLeft className="absolute left-0 top-[50%] text-2xl cursor-pointer hover:scale-110 transition" onClick={e => voltarComentario()} />
                 <section className="flex gap-24 overflow-hidden w-[90%] max-w-[400px] transition-all ease-in-out ">
                     <div className="min-w-[350px] w-[100%] min-h-[350px] bg-white rounded-md mt-4 flex flex-col justify-center items-center text-black p-5">
                         <img src={Comentariosdata[comentarioNum].foto} alt="" className="w-[100px] h-[100px] object-cover rounded-[50%]" />
@@ -28,7 +28,7 @@ export default function Comentarios() {
                     </div>
 
                 </section>
-                <FaChevronRight className="absolute right-3 top-[50%] text-2xl hover:scale-110 transition" onClick={ e => passarComentario()}/>
+                <FaChevronRight className="absolute right-3 top-[50%] text-2xl cursor-pointer hover:scale-110 transition" onClick={ e => passarComentario()}/>
             </div>
 
         </section>
