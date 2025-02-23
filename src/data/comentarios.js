@@ -2,7 +2,7 @@ export const Comentarios = [
     {
         id: 1,
         nome: "Raissa",
-        comentario: "sadasda",
+        comentario: "Amei!",
         foto: "https://img.cdndsgni.com/preview/12160669.jpg",
     },
     {
